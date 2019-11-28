@@ -1,6 +1,6 @@
-# XMRig
+# Safex Rig
 
-**:warning: [Monero will change PoW algorithm to RandomX on November 30.](https://github.com/xmrig/xmrig/issues/1204)**
+**:warning: [Safex will change PoW algorithm to a variant of RandomX(RandomSFX) on December 2. 2019.](https://safe.exchange/t/safex-dev-update-november-25-2019/6639)**
 
 [![Github All Releases](https://img.shields.io/github/downloads/xmrig/xmrig/total.svg)](https://github.com/xmrig/xmrig/releases)
 [![GitHub release](https://img.shields.io/github/release/xmrig/xmrig/all.svg)](https://github.com/xmrig/xmrig/releases)
@@ -19,9 +19,9 @@ XMRig High performance, open source, cross platform RandomX, CryptoNight and Arg
 <img src="doc/screenshot.png" width="808" >
 
 ## Download
-* Binary releases: https://github.com/xmrig/xmrig/releases
-* Git tree: https://github.com/xmrig/xmrig.git
-  * Clone with `git clone https://github.com/xmrig/xmrig.git` :hammer: [Build instructions](https://github.com/xmrig/xmrig/wiki/Build).
+* Binary releases: https://github.com/safex/xmrig/releases
+* Git tree: https://github.com/safex/xmrig.git
+  * Clone with `git clone https://github.com/safex/xmrig.git` :hammer: [Build instructions](https://github.com/safex/xmrig/wiki/Build).
 
 ## Usage
 The preferred way to configure the miner is the [JSON config file](src/config.json) as it is more flexible and human friendly. The command line interface does not cover all features, such as mining profiles for different algorithms. Important options can be changed during runtime without miner restart by editing the config file or executing API calls.
@@ -103,11 +103,6 @@ Misc:
       --dry-run                 test configuration and exit
       --export-topology         export hwloc topology to a XML file and exit
 ```
-
-## Donations
-* Default donation 5% (5 minutes in 100 minutes) can be reduced to 1% via option `donate-level` or disabled in source code.
-* XMR: `48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD`
-* BTC: `1P7ujsXeX7GxQwHNnJsRMgAdNkFZmNVqJT`
 
 ## Contacts
 * support@xmrig.com
