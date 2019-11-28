@@ -92,6 +92,16 @@ RandomX_ConfigurationArqma::RandomX_ConfigurationArqma()
 	ScratchpadL3_Size = 262144;
 }
 
+RandomX_ConfigurationSafex::RandomX_ConfigurationSafex()
+{
+    ArgonIterations = 3;
+    ArgonSalt = "RandomSFX\x01";
+    ProgramIterations = 2048;
+    ProgramCount = 8;
+    ScratchpadL2_Size = 262144;
+    ScratchpadL3_Size = 2097152;
+}
+
 RandomX_ConfigurationBase::RandomX_ConfigurationBase()
 	: ArgonMemory(262144)
 	, ArgonIterations(3)
@@ -259,6 +269,8 @@ RandomX_ConfigurationMonero RandomX_MoneroConfig;
 RandomX_ConfigurationWownero RandomX_WowneroConfig;
 RandomX_ConfigurationLoki RandomX_LokiConfig;
 RandomX_ConfigurationArqma RandomX_ArqmaConfig;
+RandomX_ConfigurationSafex RandomX_SafexConfig;
+
 
 RandomX_ConfigurationBase RandomX_CurrentConfig;
 
