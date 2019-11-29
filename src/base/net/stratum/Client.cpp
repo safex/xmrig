@@ -369,10 +369,10 @@ bool xmrig::Client::parseJob(const rapidjson::Value &params, int *code)
     else
 #   endif
     {
-        if (!job.setBlob(params["blob"].GetString())) {
-            *code = 4;
-            return false;
-        }
+        // if (!job.setBlob(params["blob"].GetString())) {
+        //     *code = 4;
+        //     return false;
+        // }
     }
 
     if (!job.setTarget(params["target"].GetString())) {
