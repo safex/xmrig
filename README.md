@@ -19,9 +19,9 @@ XMRig High performance, open source, cross platform RandomX, CryptoNight and Arg
 <img src="doc/screenshot.png" width="808" >
 
 ## Download
-* Binary releases: https://github.com/safex/xmrig/releases
-* Git tree: https://github.com/safex/xmrig.git
-  * Clone with `git clone https://github.com/safex/xmrig.git` :hammer: [Build instructions](https://github.com/safex/xmrig/wiki/Build).
+* Binary releases: https://github.com/safex/safex-rig/releases
+* Git tree: https://github.com/safex/safex-rig.git
+  * Clone with `git clone https://github.com/safex/safex-rig.git` :hammer: [Build instructions](https://github.com/safex/safex-rig/wiki/Build).
 
 ## Usage
 The preferred way to configure the miner is the [JSON config file](src/config.json) as it is more flexible and human friendly. The command line interface does not cover all features, such as mining profiles for different algorithms. Important options can be changed during runtime without miner restart by editing the config file or executing API calls.
